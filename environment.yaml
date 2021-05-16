@@ -91,6 +91,7 @@ dependencies:
   - terminado=0.9.4
   - testpath=0.4.4
   - tk=8.6.10
+  - toolz=0.11.1
   - tornado=6.1
   - traitlets=5.0.5
   - tzdata=2021a
