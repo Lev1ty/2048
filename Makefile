@@ -1,4 +1,6 @@
 SHELL=/bin/bash
+gpustat:
+	gpustat -cupF -i 1
 jupyter:
 	source .env && jupyter notebook --ip $$PUBLIC_IP
 mongod:
